@@ -1,8 +1,8 @@
-require "jekyll-haml/version"
+require "jekyll-haml-improved/version"
 require "haml"
 
-require "jekyll-haml/tags/haml_partial"
-require "jekyll-haml/ext/convertible"
+require "jekyll-haml-improved/tags/haml_partial"
+require "jekyll-haml-improved/ext/convertible"
 
 module Jekyll
   class HamlConverter < Converter
