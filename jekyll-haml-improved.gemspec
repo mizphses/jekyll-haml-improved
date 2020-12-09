@@ -5,7 +5,7 @@ require 'jekyll-haml-improved/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "jekyll-haml-improved"
-  gem.version       = 0.2
+  gem.version       = 0.3
   gem.authors       = ["Fumi Ogawa"]
   gem.email         = ["fuminori@educity.asia"]
   gem.description   = %q{The improved(fixed) version of jekyll-haml}
