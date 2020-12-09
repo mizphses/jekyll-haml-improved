@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["fuminori@educity.asia"]
   gem.description   = %q{The improved(fixed) version of jekyll-haml}
   gem.summary       = %q{Convert HAML files to standard HTML files as part of your Jekyll build.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/mizphses/jekyll-haml-improved"
   gem.license       = "MIT"
 
   gem.files         = `git ls-files`.split($/)
