@@ -5,7 +5,7 @@ require 'jekyll-haml-improved/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "jekyll-haml-improved"
-  gem.version       = 0.1
+  gem.version       = 0.2
   gem.authors       = ["Fumi Ogawa"]
   gem.email         = ["fuminori@educity.asia"]
   gem.description   = %q{The improved(fixed) version of jekyll-haml}
@@ -18,6 +18,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_runtime_dependency 'jekyll', '~> 3.3', '>= 3.3.0'
-  gem.add_runtime_dependency 'haml', '~> 3.0', '>= 3.0.0'
+  gem.add_runtime_dependency 'jekyll' '>= 3.3.0'
+  gem.add_runtime_dependency 'haml', '>= 3.0.0'
 end
